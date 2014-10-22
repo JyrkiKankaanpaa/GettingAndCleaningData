@@ -1,0 +1,31 @@
+Tidy data code book 
+=================
+
+The tidy data include average of each variable and over test and training data for each activity and each subject.
+
+Original data selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. 
+Explain of that origainal data you will find from Coursera Getting and cleaning data course's site.
+
+Tidy data is group by 6 activivity factors 
+Actitivy_ID 1:6
+Activity_Description c("WALKING","WALKING_UPSTAIRS","WALKING_DOWNSTAIRS","SITTING","STANDING""LAYING")
+
+Average is calculated over the activity for each variable mean and std.
+mean(): Mean value
+std(): Standard deviation
+
+Variables of the feature vector for each pattern'-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
+For example:
+Variable tBodyAcc-XYZ will appear in data
+tBodyAcc_mean()_X
+tBodyAcc_mean()_Y
+tBodyAcc_mean()_Z
+tBodyAcc_std()_X
+tBodyAcc_std()_Y
+tBodyAcc_std()_Z
+
+
+Complete list of all varaibles
+"tBodyAcc_mean()_X"	"tBodyAcc_mean()_Y"	"tBodyAcc_mean()_Z"	"tBodyAcc_std()_X"	"tBodyAcc_std()_Y"	"tBodyAcc_std()_Z"	"tGravityAcc_mean()_X"	"tGravityAcc_mean()_Y"	"tGravityAcc_mean()_Z"	"tGravityAcc_std()_X"	"tGravityAcc_std()_Y"	"tGravityAcc_std()_Z"	"tBodyAccJerk_mean()_X"	"tBodyAccJerk_mean()_Y"	"tBodyAccJerk_mean()_Z"	"tBodyAccJerk_std()_X"	"tBodyAccJerk_std()_Y"	"tBodyAccJerk_std()_Z"	"tBodyGyro_mean()_X"	"tBodyGyro_mean()_Y"	"tBodyGyro_mean()_Z"	"tBodyGyro_std()_X"	"tBodyGyro_std()_Y"	"tBodyGyro_std()_Z"	"tBodyGyroJerk_mean()_X"	"tBodyGyroJerk_mean()_Y"	"tBodyGyroJerk_mean()_Z"	"tBodyGyroJerk_std()_X"	"tBodyGyroJerk_std()_Y"	"tBodyGyroJerk_std()_Z"	"tBodyAccMag_mean()"	"tBodyAccMag_std()"	"tGravityAccMag_mean()"	"tGravityAccMag_std()"	"tBodyAccJerkMag_mean()"	"tBodyAccJerkMag_std()"	"tBodyGyroMag_mean()"	"tBodyGyroMag_std()"	"tBodyGyroJerkMag_mean()"	"tBodyGyroJerkMag_std()"	"fBodyAcc_mean()_X"	"fBodyAcc_mean()_Y"	"fBodyAcc_mean()_Z"	"fBodyAcc_std()_X"	"fBodyAcc_std()_Y"	"fBodyAcc_std()_Z"	"fBodyAcc_meanFreq()_X"	"fBodyAcc_meanFreq()_Y"	"fBodyAcc_meanFreq()_Z"	"fBodyAccJerk_mean()_X"	"fBodyAccJerk_mean()_Y"	"fBodyAccJerk_mean()_Z"	"fBodyAccJerk_std()_X"	"fBodyAccJerk_std()_Y"	"fBodyAccJerk_std()_Z"	"fBodyAccJerk_meanFreq()_X"	"fBodyAccJerk_meanFreq()_Y"	"fBodyAccJerk_meanFreq()_Z"	"fBodyGyro_mean()_X"	"fBodyGyro_mean()_Y"	"fBodyGyro_mean()_Z"	"fBodyGyro_std()_X"	"fBodyGyro_std()_Y"	"fBodyGyro_std()_Z"	"fBodyGyro_meanFreq()_X"	"fBodyGyro_meanFreq()_Y"	"fBodyGyro_meanFreq()_Z"	"fBodyAccMag_mean()"	"fBodyAccMag_std()"	"fBodyAccMag_meanFreq()"	"fBodyBodyAccJerkMag_mean()"	"fBodyBodyAccJerkMag_std()"	"fBodyBodyAccJerkMag_meanFreq()"	"fBodyBodyGyroMag_mean()"	"fBodyBodyGyroMag_std()"	"fBodyBodyGyroMag_meanFreq()"	"fBodyBodyGyroJerkMag_mean()"	"fBodyBodyGyroJerkMag_std()"	"fBodyBodyGyroJerkMag_meanFreq()"
+
+
